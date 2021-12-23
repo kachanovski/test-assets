@@ -1,0 +1,52 @@
+@import "../../assets/settings";
+
+.notification-modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100vh;
+
+  &-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .success-icon-container {
+      width: 45px;
+      height: 45px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+      background-color: $light_green;
+      margin-bottom: 10px;
+    }
+
+  }
+
+  &-content {
+    width: 240px;
+    position: relative;
+    padding: 25px 45px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 22px;
+  }
+  &-closeIcon {
+    fill: #E4E4E4;
+    position: absolute;
+    top: 12px;
+    right: 15px;
+  }
+}
+
+

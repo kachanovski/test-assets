@@ -1,0 +1,33 @@
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100vh;
+
+  &-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &-content {
+    position: relative;
+    padding: 30px 15px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    min-width: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &-closeIcon {
+      fill: #E4E4E4;
+      position: absolute;
+      top: 12px;
+      right: 15px;
+    }
+  }
+}

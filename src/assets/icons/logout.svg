@@ -1,0 +1,13 @@
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <style>.a{fill}.b{fill-rule:evenodd;}</style>
+    </defs>
+<path d="M19 3L8 3.00004L8.00002 7H10V5H17V19H10V17H8.00002V21H19V3Z"/>
+<path d="M5 7L6.415 8.415L3.83 11L11.5 11L11.5 13L3.83 13L6.415 15.585L5 17L4.37114e-07 12L5 7Z"/>
+
+<defs>
+<clipPath id="clip0_30_888">
+<rect width="24" height="24"/>
+</clipPath>
+</defs>
+</svg>

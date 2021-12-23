@@ -1,0 +1,29 @@
+@import "../../../assets/settings";
+
+.navbar {
+  height: 100vh;
+  background-color: $navbar_bg;
+
+  &-container {
+    width: 240px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &-content {
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &-logo {
+    width: 100px;
+    height: 17px;
+    margin-bottom: 22px;
+  }
+}
+

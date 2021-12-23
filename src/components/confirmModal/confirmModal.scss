@@ -1,0 +1,16 @@
+.confirm-modal-message {
+  padding: 0 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.confirm-modal-actions {
+  display: flex;
+  justify-content: center;
+
+  .button {
+    width: 150px;
+    margin: 0 2.5px;
+  }
+}
+

@@ -1,0 +1,23 @@
+@import "../../assets/settings";
+
+.input {
+  padding: 23px 20px;
+  border: 1px solid #E5E8EA;
+  border-radius: 5px;
+  background-color: $white;
+  outline: none;
+  font-size: 16px;
+
+  &::placeholder{
+    color: #B8B4B0;
+    font-size: 16px;
+    line-height: 18px;;
+  }
+  &:focus{
+    border: 1px solid $blue;
+  }
+}
+
+.error {
+  border: 1px solid red;
+}

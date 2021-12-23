@@ -1,0 +1,51 @@
+@import "../../../../assets/settings";
+
+.navbar-link {
+  width: 100%;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+
+  &:hover {
+    background-color: $navbar_current_item;
+  }
+
+  &-icon-container {
+    padding-left: 22px;
+    padding-right: 12px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar-icon {
+    fill: #6b778d;
+  }
+
+  .navbar-icon-video {
+    stroke: #6b778d;
+    fill: $navbar_bg;
+  }
+
+
+}
+
+.navbar-active{
+ background-color: $navbar_current_item;
+  .navbar-icon {
+    fill: $white;
+  }
+  .navbar-icon-video {
+    stroke:  $white;
+    fill: $navbar_bg;
+  }
+}
